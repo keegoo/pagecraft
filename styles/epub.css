@@ -1,0 +1,27 @@
+body {
+  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+  line-height: 1.8;
+}
+
+h1, h2, h3 {
+  font-family: "PingFang SC", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  text-indent: 2em;
+  margin-bottom: 0.8em;
+}
+
+pre, code {
+  font-family: "Menlo", monospace;
+  font-size: 0.85em;
+}
+
+pre {
+  padding: 1em;
+  background-color: #f4f4f4;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
