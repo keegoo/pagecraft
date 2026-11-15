@@ -1,27 +1,107 @@
-body {
-  font-family: "Songti SC", "Noto Serif CJK SC", serif;
-  line-height: 1.8;
+/* Page layout */
+@page {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
 }
 
+/* Body */
+body {
+  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
 h1, h2, h3 {
   font-family: "PingFang SC", sans-serif;
   font-weight: 600;
+  line-height: 1.4;
 }
 
-p {
-  text-indent: 2em;
+h1 {
+  margin-top: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+h2 {
+  margin-top: 1.5em;
   margin-bottom: 0.8em;
 }
 
-pre, code {
+h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+/* Paragraphs */
+p {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+/* Inline code */
+code {
   font-family: "Menlo", monospace;
   font-size: 0.85em;
 }
 
+/* Code blocks */
 pre {
+  font-family: "Menlo", monospace;
+  font-size: 0.85em;
+  line-height: 1.5;
+
   padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
   background-color: #f4f4f4;
   border-radius: 6px;
+
   white-space: pre-wrap;
   overflow-wrap: anywhere;
+}
+
+/* Blockquotes */
+blockquote {
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: 1em;
+
+  border-left: 3px solid #cccccc;
+  color: #666666;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 0.5em;
+  text-align: left;
 }

@@ -1,8 +1,5 @@
 ---
-title: "Day 1 - Kubernetes API Objects"
-author: "CY"
-date: "2026-11-15"
-lang: "en"
+title: "Day 1 - Kubernetes API Objects" 
 ---
 
 # 第一阶段 · Day 1
