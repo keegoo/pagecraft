@@ -1,0 +1,14 @@
+# pandoc 生成文字的中文翻译（lang: zh-CN 时自动生效）
+# 键名区分大小写；pandoc 3.14 已移除 Example、Notes 两个词
+Abstract: 摘要
+Appendix: 附录
+Chapter: 章
+Contents: 目录
+Figure: 图
+Glossary: 术语表
+Listing: 代码清单
+Part: 部分
+Preface: 前言
+Proof: 证明
+References: 参考文献
+Table: 表
